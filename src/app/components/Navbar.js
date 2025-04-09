@@ -9,8 +9,23 @@ const Navbar = () => {
         <p className="text-[34px] font-semibold mx-2 w-10">Ar</p>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a
+          href="https://www.linkedin.com/in/abdulrehmanchahal/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer"
+        >
+          <FaLinkedin />
+        </a>
+
+       
+        <a
+          href="https://github.com/abdulrehmannjutt"
+          target="_blank"
+          className="cursor-pointer"
+        >
+          <FaGithub />
+        </a>
       </div>
     </nav>
   );

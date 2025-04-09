@@ -5,8 +5,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiSass,
-  SiGit,
-  SiLinux,
+  SiBootstrap,
   SiNodedotjs,
 } from "react-icons/si";
 
@@ -50,6 +49,12 @@ const Technologies = () => {
           title="Tailwind CSS"
         >
           <SiTailwindcss className="text-7xl text-blue-400" />
+        </div>
+        <div
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Tailwind CSS"
+        >
+          <SiBootstrap className="text-7xl text-blue-400" />
         </div>
         <div
           className="rounded-2xl border-4 border-neutral-800 p-4"
