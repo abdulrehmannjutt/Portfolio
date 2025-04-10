@@ -5,7 +5,7 @@ import { PROJECTS } from "../../../constants/Constants";
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <h1 className="my-10 lg:my-20 text-center text-4xl">Projects</h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -19,7 +19,7 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <div className="flex">
+              <div className="flex flex-wrap">
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
                 <a
                   href={project?.link}
