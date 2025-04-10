@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image';
-import { PROJECTS } from '../../../constants/Constants';
+import React from "react";
+import Image from "next/image";
+import { PROJECTS } from "../../../constants/Constants";
 
 const Projects = () => {
   return (
@@ -19,9 +19,24 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              <p className='flex flex-wrap'>
+              <div className="flex">
+                <h6 className="mb-2 font-semibold">{project.title}</h6>
+                <a
+                  href={project?.link}
+                  className="text-blue-400 hover:underline ml-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project?.linkTitle}
+                </a>
+              </div>
+              <p
+                className="mb-4 text-neutral-400"
+                dangerouslySetInnerHTML={{
+                  __html: project.description.replace(/\n/g, "<br/>"),
+                }}
+              />
+              <p className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
@@ -37,6 +52,6 @@ const Projects = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Projects
+export default Projects;
