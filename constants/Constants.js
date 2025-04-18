@@ -14,10 +14,17 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "SprintX",
     description: `
-      • MERN Stack Training: Gained hands-on experience with the MERN stack through various projects, strengthening expertise in React, Node.js, Express, MongoDB, and front-end technologies like HTML, CSS, and SASS.
-      • Real-World Project Experience: Collaborated on a fast-paced project within a 4-member team, primarily focusing on front-end development. Converted Figma designs into a fully responsive website and developed email templates compatible with multiple email clients. Integrated these templates into key authentication flows, including login, sign-up, password recovery, and account verification.
-      • Company Product Development: Worked on the company’s product as part of a 5-member team, focusing on a website revamp. Improved functionality and UI to enhance user experience while ensuring modern front-end best practices and optimized performance.
-      • Tools & Practices: Used Git for version control and actively participated in daily stand-ups and code reviews to ensure smooth project progress.
+      • Gained hands-on experience with the MERN stack (MongoDB, Express.js,
+React, Node.js) and front-end tools including HTML, CSS, Tailwind CSS, and
+SASS through project-based learning.
+      • Collaborated in a 4-member team on a real-world project, transforming Figma
+designs into responsive web pages and developing cross-client email templates
+integrated with key auth flows.
+      • Worked on the company’s product, focusing on the website revamp to enhance
+both functionality and user interface, ensuring an improved user experience.
+Utilized best practices to optimize performance.
+      • Utilized Git for version control and participated in daily stand-ups and code
+reviews to ensure smooth team collaboration.
     `,
     technologies: [
       "JavaScript",
@@ -29,6 +36,20 @@ export const EXPERIENCES = [
       "Tailwind CSS",
       "SCSS",
     ],
+  },
+  {
+    year: "September 2023 - November 2023",
+    role: "Web Development Intern",
+    company: "Divisional Public School (IT Department)",
+    description: `
+      • Developed responsive and visually appealing website interfaces using HTML,
+        CSS, Bootstrap, and JavaScript, focusing on user experience and cross-browser
+        compatibility.
+      • Implemented backend functionality using PHP and managed application data
+        with MySQL, ensuring secure and efficient data handling.
+      • Executed full CRUD operations for dynamic content management, contributing
+        to both frontend and backend development of web applications.`,
+    technologies: ["JavaScript", "PHP", "MySQL", "Bootstrap", "HTML", "CSS"],
   },
 ];
 
