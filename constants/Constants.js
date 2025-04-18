@@ -92,7 +92,7 @@ export const PROJECTS = [
     • Led the app development, creating a user-friendly interface and ensuring seamless functionality with Flutter.
     • Contributed to the development of the machine learning model for sign language recognition.
     • Integrated 3D animations using Blender for interactive sign language learning.`,
-    technologies: ["Flutter", "Machine Learning", "Blender"],
+    technologies: ["Flutter", "Dart", "Python", "Machine Learning", "Blender"],
   },
 ];
 
