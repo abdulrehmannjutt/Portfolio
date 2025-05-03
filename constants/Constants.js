@@ -1,6 +1,6 @@
-import project1 from '../src/app/assets/images/ecommerce.webp';
-import project2 from '../src/app/assets/images/mcro.png';
-import project3 from '../src/app/assets/images/sign-language.png';
+import project1 from "../src/app/assets/images/ecommerce.webp";
+import project2 from "../src/app/assets/images/mcro.png";
+import project3 from "../src/app/assets/images/sign-language.png";
 
 export const HERO_CONTENT =
   "I’m a motivated web developer with a passion for building scalable, user-friendly web applications. I have hands-on experience with front-end technologies like React and Next.js, and back-end tools such as Node.js, Express, and MongoDB. Through academic projects and personal initiatives, I’ve developed a strong understanding of modern web development practices. I enjoy learning new technologies and turning ideas into meaningful solutions that enhance user experience and drive innovation.";
@@ -9,6 +9,19 @@ export const ABOUT_TEXT = `I am a motivated and adaptable web developer with han
 Proficient in React.js, Node.js, Express.js, MongoDB, and modern front-end tools like Tailwind CSS and SCSS, I bring both technical depth and a keen eye for UI/UX. Whether working in a team or independently, I thrive on solving challenges, writing clean code, and continuously learning new technologies to deliver high-impact solutions.`;
 
 export const EXPERIENCES = [
+  {
+    year: "April 2025 - Present",
+    role: "Web Development Intern",
+    company: "Webbuggs",
+    description: `
+      • Designed and developed responsive, user-friendly interfaces using React JS, Tailwind CSS, and TypeScript,
+        with a strong focus on accessibility and performance.
+      • Collaborated with the design team to translate Figma designs into clean, responsive UIs across multiple
+        screen sizes.
+      • Contributed to code reviews, team discussions, and sprint planning to deliver high-quality features on time.
+      • Built scalable front-end components while ensuring consistent code structure across the project.`,
+    technologies: ["JavaScript", "TypeScript", "React JS", "Tailwind CSS"],
+  },
   {
     year: "July 2024 - September 2024",
     role: "Software Engineer Intern",
@@ -36,20 +49,6 @@ reviews to ensure smooth team collaboration.
       "Tailwind CSS",
       "SCSS",
     ],
-  },
-  {
-    year: "September 2023 - November 2023",
-    role: "Web Development Intern",
-    company: "Divisional Public School (IT Department)",
-    description: `
-      • Developed responsive and visually appealing website interfaces using HTML,
-        CSS, Bootstrap, and JavaScript, focusing on user experience and cross-browser
-        compatibility.
-      • Implemented backend functionality using PHP and managed application data
-        with MySQL, ensuring secure and efficient data handling.
-      • Executed full CRUD operations for dynamic content management, contributing
-        to both frontend and backend development of web applications.`,
-    technologies: ["JavaScript", "PHP", "MySQL", "Bootstrap", "HTML", "CSS"],
   },
 ];
 
@@ -99,5 +98,5 @@ export const PROJECTS = [
 export const CONTACT = {
   phoneNo: "+92 322 9497699",
   email: "abdulrehmannjutt@gmail.com",
-  whatsapp: "923229497699"
+  whatsapp: "923229497699",
 };
